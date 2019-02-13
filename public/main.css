@@ -1,0 +1,68 @@
+header {
+     background-color: black; 
+     font-weight:600;
+     font-size:100%;
+}
+header a.nav-link {
+     color: white;   
+}
+header a.nav-link.active {
+  color: lightgreen;   
+}
+.red {
+  background-color: red;  
+  text-align:center;
+}
+  
+main .row .plashka {
+  min-height:100px;
+  background-color: white;  
+  margin-top:10px;
+  margin-bottom:20px;
+  padding:10px 20px;
+  border-radius: 5px;
+  box-shadow:0 4px 6px 1px #999;
+  font-weight:600;
+  font-size:100%;
+    
+}
+  
+main {
+  background-color: #C2C2C2;
+ 
+}
+
+main .row h1 {
+font-size:18px;
+font-weight:600;
+;
+}
+
+footer {
+background-color: #333333;
+color:white;
+font-size:14px;
+padding:10px 10px;
+font-weight:600;
+
+}
+
+main .row .image {
+max-width:100%;
+
+}
+main .card-columns .card {
+ 
+  
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.brd {
+  margin-top:20px;
+}
+
+.panel {
+     background-color: blue !important; 
+     font-weight:600;
+     font-size:100%;
+}

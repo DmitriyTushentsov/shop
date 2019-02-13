@@ -1,0 +1,93 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/static/main.css" >
+<div class="container">
+    <header>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Услуги</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link active" href="#">Цены</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О компании</a> 
+                    </li> 
+                    <li class="nav-item "> 
+                        <a class="nav-link" href="#">Контакты</a> 
+                    </li> 
+                </ul>
+            </div> 
+        </div>
+    </header>
+<main>
+    <div class="row">  
+        <div class="col-md-8 brd offset-md-2">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-md-8 plashka offset-md-2">
+        <h1><%= product.title %></h1>
+        <div class="row">
+            <div class="col-md-4 image">
+                <img src="/static/<%= product.img %>" width="100%">
+            </div>
+            <div class="col-md-8 product">
+                <table class="table table-sm">
+                    <tbody>
+                        <tr>
+                            <td>Цена</td>
+                            <td><%= product.price %> руб.</td>
+                        </tr>
+                        <tr>
+                            <td>Масса</td>
+                            <td>2.5 кг.</td>
+                        </tr>
+                        <tr>
+                            <td>Габариты</td>
+                            <td>20 х 50 х 50</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 image">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Фотографии</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Описание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 image">
+                <p><%= product.description %></p>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+
+
+    <footer>
+        <div class="row">
+            <div class="col-md-8 plashka offset-md-2">
+                &copy; Сайт интернет-магазина 2018
+            </div>
+        </div>
+    </footer>
+</div>
